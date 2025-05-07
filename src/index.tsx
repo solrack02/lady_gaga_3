@@ -135,7 +135,7 @@ xmlns="http://www.w3.org/2000/svg"
  {
  'all': { 
 'colors': { 
-'primary': "#fff", 'secondary': "red" } 
+'primary': "#000", 'secondary': "red" } 
 , 
 'cond1': false, 
 'func1': (nativeEvent)=>console.log(nativeEvent), 
