@@ -32,6 +32,18 @@
           styles:[`{ flex: 1, backgroundColor: "$var_all.colors.primary" }`],
 
           screenElements:[
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{ width: "100%", height: 20, backgroundColor: "#111" }`],
+
+            functions:[()=>{}],            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        , 
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
