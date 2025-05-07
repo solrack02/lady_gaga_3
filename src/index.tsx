@@ -222,9 +222,9 @@ xmlns="http://www.w3.org/2000/svg"
         <svg></svg>
       `,
 
-      altura: "20px",
+      altura: "14px",
 
-      largura: "20px",
+      largura: "14px",
 
       preenchimento: [`transparent`],
 
@@ -311,9 +311,9 @@ xmlns="http://www.w3.org/2000/svg"
         <svg></svg>
       `,
 
-      altura: "20px",
+      altura: "14px",
 
-      largura: "20px",
+      largura: "14px",
 
       preenchimento: [`transparent`],
 
