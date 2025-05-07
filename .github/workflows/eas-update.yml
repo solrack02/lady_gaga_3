@@ -115,9 +115,14 @@ jobs:
 
       - name: Create preview
         id: preview
-        uses: expo/expo-github-action/preview@v8
+        uses: expo/expo-github-action@v8
         with:
+          eas-version: latest
           command: eas update --auto
+          # token: ${{ secrets.EXPO_TOKEN }}
+        # uses: expo/expo-github-action/preview@v8
+        # with:
+        #   command: eas update --auto
 
       - name: Set Firebase Qr Code
         run: |
