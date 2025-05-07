@@ -180,11 +180,12 @@ xmlns="http://www.w3.org/2000/svg"
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
 
-            styles:[`{
+            styles:[
+        `{
   flexDirection: "row",
   alignItems: "center",
   width: "100%",
-}`],
+}`, `{ paddingHorizontal: 20 }`],
 
             functions:[()=>{}],            childrenItems:[
         
