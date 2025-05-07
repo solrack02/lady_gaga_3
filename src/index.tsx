@@ -248,7 +248,7 @@ xmlns="http://www.w3.org/2000/svg"
           ],
 
           arrStyles: [
-            { color: 'black', fontSize: 12, }
+            `{ color: "#263238" }`
           ],
 
           children: [
@@ -263,7 +263,7 @@ xmlns="http://www.w3.org/2000/svg"
           ],
 
           arrStyles: [
-            { color: 'black', fontSize: 12, }
+            `{ color: "#fff" }`
           ],
 
           children: [
