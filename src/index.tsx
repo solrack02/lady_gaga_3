@@ -252,7 +252,7 @@ xmlns="http://www.w3.org/2000/svg"
           ],
 
           children: [
-            "Escreva..."
+            `Lady Gaga`
           ],
 
           args,
@@ -267,7 +267,7 @@ xmlns="http://www.w3.org/2000/svg"
           ],
 
           children: [
-            "Escreva..."
+            `Just Dance`
           ],
 
           args,
