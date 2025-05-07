@@ -39,7 +39,7 @@
 
       styles:[{ width: "100%", height: "100%", position: "absolute" }],
 
-      URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/bg_red.png?alt=media&token=b9d4d1ce-80d9-4273-88ea-1d25a850174e`],
+      URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/bg_red.png?alt=media&token=7d654b53-c619-4dc1-94d5-d77fd5cd4420`],
 
       args,
     }}/>, 
