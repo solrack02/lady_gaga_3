@@ -165,7 +165,7 @@ xmlns="http://www.w3.org/2000/svg"
     (...args:any) => <Elements.ImageBox pass={{
       elementsProperties:[{}],
 
-      styles:[{ width: 120, height: 120 }],
+      styles:[{ width: 150, height: 150, borderRadius: 5 }],
 
       URIvariablePath:[`https://4kwallpapers.com/images/wallpapers/lady-gaga-1920x1200-16726.jpeg`],
 
