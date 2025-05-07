@@ -38,7 +38,7 @@
 
             styles:[`{
   flexDirection: "row",
-  backgroundColor: "#0064fe",
+  backgroundColor: "$var_all.colors.primary",
   alignItems: "center",
   width: "100%",
 }`],
@@ -76,9 +76,9 @@ xmlns="http://www.w3.org/2000/svg"
         <svg></svg>
       `,
 
-      altura: "16px",
+      altura: "14px",
 
-      largura: "16px",
+      largura: "14px",
 
       preenchimento: ['black'],
 
@@ -94,6 +94,7 @@ xmlns="http://www.w3.org/2000/svg"
 
             styles:[`{
   flex: 1,
+  textAlign: "center"
 }`],
 
             functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
