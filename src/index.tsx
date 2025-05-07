@@ -46,6 +46,17 @@
         , 
         
 
+    (...args:any) => <Elements.ImageBox pass={{
+      elementsProperties:[{}],
+
+      styles:[{ width: "100%", height: "100%" }],
+
+      URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/bg_red.png?alt=media&token=b9d4d1ce-80d9-4273-88ea-1d25a850174e`],
+
+      args,
+    }}/>, 
+        
+
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
 
@@ -176,7 +187,6 @@ xmlns="http://www.w3.org/2000/svg"
             args,
           }}/>
         , 
-        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
@@ -328,17 +338,7 @@ xmlns="http://www.w3.org/2000/svg"
 
             args,
           }}/>
-        , 
-
-    (...args:any) => <Elements.ImageBox pass={{
-      elementsProperties:[{}],
-
-      styles:[{ width: "100%", height: "100%" }],
-
-      URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/bg_red.png?alt=media&token=b9d4d1ce-80d9-4273-88ea-1d25a850174e`],
-
-      args,
-    }}/>],
+        ],
 
           functions:[()=>{}],
 
