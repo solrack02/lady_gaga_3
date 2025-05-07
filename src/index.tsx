@@ -50,8 +50,8 @@
             elementsProperties:['{}'],
 
             styles:[`{
-  width: 30,
-  height: 30,
+  width: 34,
+  height: 34,
   alignItems: "center",
   justifyContent: "center",
 }`],
@@ -88,6 +88,7 @@ xmlns="http://www.w3.org/2000/svg"
             args,
           }}/>
         , 
+        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
@@ -116,6 +117,22 @@ xmlns="http://www.w3.org/2000/svg"
           args,
 
         }}/>],
+
+            args,
+          }}/>
+        , 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+  width: 34,
+  height: 34,
+  alignItems: "center",
+  justifyContent: "center",
+}`],
+
+            functions:[()=>{}],            childrenItems:[() =><></>],
 
             args,
           }}/>
